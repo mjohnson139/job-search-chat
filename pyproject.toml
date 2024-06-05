@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "job-search-chat"
+version = "0.1.0"
+description = ""
+authors = ["Matt Johnson <mjohnson@ewise.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.35.0"
+langchain = "^0.2.2"
+
+[tool.poetry.group.dev.dependencies]
+langchain-openai = "^0.1.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
